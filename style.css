@@ -25,6 +25,7 @@ h1 {
 p {
     font-size: 18px;
 }
+
 button {
     background-color: #3382f6;
     color: aliceblue;
@@ -39,7 +40,7 @@ button {
     color: #f9faf8;
 }
 
-.navigation {
+.navbar {
     padding: 10px, 45px, 0px, 45px;
     display: flex;
 }
@@ -73,4 +74,73 @@ button {
 .dog {
     width: 200px;
     height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 200px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 60px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3382f6;
+    border-radius: 10px;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    padding: 60px 120px 60px 120px;
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: auto;
+    height: auto;
+}
+
+.quote-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: auto;
 }
